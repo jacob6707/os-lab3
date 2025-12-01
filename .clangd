@@ -1,0 +1,5 @@
+CompileFlags: # Tweak the parse settings, example directory given to show format
+  Add:
+    # - "-I=[folder]"         # old answer
+    - "-I/lib/modules/6.12.59-1-lts/build/include"
+    - "-I/lib/modules/6.12.59-1-lts/build/arch/x86/include"
